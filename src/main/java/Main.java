@@ -7,7 +7,6 @@ public class Main {
         // здесь создайте сервер, который отвечал бы на нужные запросы
         // слушать он должен порт 8989
         // отвечать на запросы /{word} -> возвращённое значение метода search(word) в JSON-формате
-
         final int PORT = 8989;
 
         try (ServerSocket serverSocket = new ServerSocket(PORT)) {
